@@ -15,3 +15,9 @@ jupyter nbconvert --to notebook --inplace --execute game.ipynb
 ```
 
 **Note:** The program can be launched from the notebook itself rather than command line if preferred.
+
+If running into errors, note that the latest version of Conda needs to be installed
+
+```
+conda update -n base -c defaults conda
+```
